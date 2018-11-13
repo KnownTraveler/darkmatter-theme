@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <link rel="stylesheet" href="{{ "/assets/styles/darkmatter-cover.css" | prepend: site.baseurl }}">
+  <body class="text-center">
+      
+    <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+
+      <div class="header">
+        {% include header.html %}
+      </div>
+
+      <div class="container">
+        {{ content }}
+      </div>
+
+    </div>
+
+  </body>
+</html>
