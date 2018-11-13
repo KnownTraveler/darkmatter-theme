@@ -1,0 +1,19 @@
+/*!
+ * Darkmatter Theme - (https://github.com/fellowhobbyist/darkmatter-theme)
+ * Copyright 2018 FellowHobbyist (Brian Hooper)
+ * Licensed under MPL_2.0 (https://www.mozilla.org/en-US/MPL/2.0/)
+ */
+
+ header {
+    padding: 154px 0 100px;
+  }
+  
+  @media (min-width: 992px) {
+    header {
+      padding: 156px 0 100px;
+    }
+  }
+  
+  section {
+    padding: 150px 0;
+  }
