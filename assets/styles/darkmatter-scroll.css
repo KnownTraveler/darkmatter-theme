@@ -10,7 +10,8 @@
   
   @media (min-width: 992px) {
     header {
-      padding: 156px 0 100px;
+      padding: 300px 0 500px 0;
+      background-color: #333;
     }
   }
   
