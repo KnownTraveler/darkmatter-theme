@@ -29,9 +29,7 @@ sass:
   sass_dir: _sass
   style: compressed # expanded
 
-include: ['_pages']
-
-include: ['_slides']
+include: ['_pages', '_slides']
 
 # Author settings
 author:
