@@ -14,6 +14,18 @@
     }
   }
   
+
+  header.masthead {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    color: white;
+    background: url("../images/css/bg-pattern.png"), #70C1B3;
+    background: url("../images/css/bg-pattern.png"), -webkit-linear-gradient(to left, #70C1B3, #50514F);
+    background: url("../images/css/bg-pattern.png"), linear-gradient(to left, #70C1B3, #50514F);
+  }
+  
   .bg-image-full {
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
