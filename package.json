@@ -1,0 +1,22 @@
+{
+  "name": "darkmatter-theme",
+  "version": "1.0.0",
+  "description": "jekyll minimalist theme",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FellowHobbyist/darkmatter-theme.git"
+  },
+  "author": "Brian Hooper (FellowHobbyist)",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/FellowHobbyist/darkmatter-theme/issues"
+  },
+  "homepage": "https://github.com/FellowHobbyist/darkmatter-theme#readme",
+  "dependencies": {
+    "reveal": "0.0.4"
+  }
+}

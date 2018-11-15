@@ -31,6 +31,8 @@ sass:
 
 include: ['_pages']
 
+include: ['_slides']
+
 # Author settings
 author:
   name     : "Brian Hooper"
