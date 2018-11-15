@@ -2,6 +2,8 @@
 layout: page
 title: Blog
 permalink: /blog/
+date: 2018-01-01 00:00:00 -0600
+tags: blog template business
 ---
 <!-- Page Content -->
 <div class="container">
@@ -83,17 +85,18 @@ permalink: /blog/
                 <h5 class="card-header">Search</h5>
                 <div class="card-body">
                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for...">
-                        <span class="input-group-btn">
-                            <button class="btn btn-secondary" type="button">Go!</button>
-                        </span>
+                        <input type="text" id="search-input" class="form-control" placeholder="Search for posts...">
                     </div>
+                    <div style="padding-top: 15px">
+                        <ul id="results-container"></ul>
+                    </div>
+
                 </div>
             </div>
 
-            <!-- Categories Widget -->
-            <div class="card my-4">
-                <h5 class="card-header">Categories</h5>
+            <!-- Tags Widget -->
+            <!--<div class="card my-4">
+                <h5 class="card-header">Tags</h5>
                 <div class="card-body">
                     <div class="row">
                         <div class="col-lg-6">
@@ -124,17 +127,21 @@ permalink: /blog/
                         </div>
                     </div>
                 </div>
-            </div>
-
+            </div>-->
             <!-- Side Widget -->
             <div class="card my-4">
-                <h5 class="card-header">Side Widget</h5>
+                <h5 class="card-header">Recent Posts</h5>
                 <div class="card-body">
-                    You can put anything you want inside of these side widgets. They are easy to use, and feature the
-                    new Bootstrap 4 card containers!
+                    <ul>
+                        {% for post in site.posts limit:5 %}
+                        <li>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                            <!--{{ post.excerpt }}-->
+                        </li>
+                        {% endfor %}
+                    </ul>
                 </div>
             </div>
-
         </div>
 
     </div>

@@ -2,7 +2,7 @@
 layout: post
 title:  "What is Bacon Ipsum pt1"
 date:   2018-01-01 00:00:00 -0600
-categories: bacon ipsum
+tags: bacon linux
 ---
 
 # SECTION

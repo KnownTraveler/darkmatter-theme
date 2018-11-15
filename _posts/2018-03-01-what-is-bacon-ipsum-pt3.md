@@ -2,7 +2,7 @@
 layout: post
 title:  "What is Bacon Ipsum pt3"
 date:   2018-03-01 00:00:00 -0600
-categories: bacon ipsum
+tags: bacon ipsum
 ---
 
 # SECTION
